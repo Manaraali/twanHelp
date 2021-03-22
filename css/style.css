@@ -1,0 +1,111 @@
+html,
+body {
+  background-color: #ccc;
+}
+
+h2 {
+  color: coral;
+}
+
+h3 {
+  color: indianred;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.75em;
+  color: #444;
+}
+
+ul,
+ol {
+  font-style: italic;
+}
+
+.img-container {
+  position: relative;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  right: 200px;
+}
+
+a {
+  color: purple;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid #000;
+}
+
+td {
+  text-align: center;
+}
+
+/* Form */
+.form-wrapper {
+  background-color: #fff;
+  width: 570px;
+  padding: 15px;
+  color: #333;
+}
+
+p#form-question {
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.form-group label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-group input {
+  padding: 5px;
+  width: 90%;
+  outline: none;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+.form-group input:focus {
+  border-color: teal;
+  background-color: #ccc;
+}
+
+.form-group textarea {
+  width: 90%;
+  height: 100px;
+  outline: none;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+.form-group textarea:focus {
+  border-color: teal;
+  background-color: #ccc;
+}
+
+.submit-button {
+  width: 91%;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: teal;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+
+.submit-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
